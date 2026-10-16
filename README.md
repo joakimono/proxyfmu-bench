@@ -43,7 +43,7 @@ Locally spawned proxyfmu instances use a Unix domain socket on Linux and macOS, 
 ```sh
 git clone -b unix-domain-sockets https://github.com/open-simulation-platform/proxy-fmu.git
 git clone -b batched-step-exchange https://github.com/open-simulation-platform/libcosim.git
-git clone https://github.com/<you>/proxyfmu-bench.git
+git clone https://github.com/joakimono/proxyfmu-bench.git
 ```
 
 **Create local Conan packages** for both, under the `local/bench` user and channel. The libcosim branch requires `proxyfmu/0.5.0@local/bench`.
