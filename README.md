@@ -70,7 +70,7 @@ Check first that everything works. This takes a minute or two:
 python run_benchmark.py --libcosim-dir ../libcosim --quick
 ```
 
-Then run the full matrix. This can take up to an hour, depending on the platform:
+Then run the full matrix. It takes roughly 10–15 times as long as `--quick`: about 8 minutes on a 24-core Linux machine, and probably 10–20 minutes on Windows, where proxy processes start more slowly and TCP is used:
 
 ```sh
 python run_benchmark.py --libcosim-dir ../libcosim
